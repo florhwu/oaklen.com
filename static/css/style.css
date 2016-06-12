@@ -59,13 +59,13 @@ p {
 ul {
     list-style-type: none;
     overflow: hidden;
-    position: relative;
-    top: 30%;
+    position: absolute;
+    top: 70%;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    left: 34%;
+    left: 33.5%;
 }
 
 li {
@@ -77,6 +77,11 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    opacity: 0.9;
+}
+
+li a:hover {
+    opacity: 1.0;
 }
 
 .active {
